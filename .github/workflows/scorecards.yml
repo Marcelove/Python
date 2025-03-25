@@ -15,8 +15,9 @@ jobs:
   scorecard:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Scorecard analysis
+      - name: Run Scorecards analysis
         uses: ossf/scorecard-action@v2.1.0
         with:
           results_file: results.sarif
+          publish_results: true
         continue-on-error: true

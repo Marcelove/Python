@@ -31,11 +31,11 @@ Pull requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## 📖 Documentation
 
-### Example: `calculator.py`
+### `calculator.py`
 - Input: two numbers and an operation
 - Output: result of the calculation
 
-### Example: `fizzbuzz.py`
+### `fizzbuzz.py`
 - Prints numbers from 1 to 100 with Fizz/Buzz rules
 
 ## 📄 License
@@ -49,6 +49,6 @@ Found a bug or have a suggestion? Please open an issue here:
 ## 🔐 Security Policy
 
 If you discover a security vulnerability, please **do not open a GitHub issue**.  
-Instead, email me privately at: [your-email@example.com]
+Instead, email me privately at: [jrmarcelo2011@gmail.com]
 
 We will respond as quickly as possible to address the issue.

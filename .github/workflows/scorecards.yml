@@ -25,9 +25,7 @@ jobs:
         with:
           results_file: results.sarif
           publish_results: true
-          file_mode: git
-          repo: github.com/Marcelove/Python
-        continue-on-error: true
+        continue-on-error: false
 
       - name: Upload SARIF artifact
         uses: actions/upload-artifact@v4

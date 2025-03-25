@@ -4,13 +4,14 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '30 1 * * 0'  # Runs every Sunday at 01:30
+    - cron: '30 1 * * 0'  # Todo domingo às 01:30 UTC
 
 permissions:
-  actions: read
   contents: read
-  id-token: write  # Required for publishing results
+  actions: read
+  id-token: write
   security-events: write
+  checks: write  # necessário para publicar resultados na API pública
 
 jobs:
   scorecard:
@@ -25,10 +26,10 @@ jobs:
           results_file: results.sarif
           publish_results: true
           file_mode: git
+          repo: github.com/marcelove/python
         continue-on-error: true
 
-
-      - name: Upload artifact
+      - name: Upload SARIF artifact
         uses: actions/upload-artifact@v4
         with:
           name: SARIF file

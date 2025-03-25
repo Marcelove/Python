@@ -1,7 +1,7 @@
 # Python Projects Repository
 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10308/badge)](https://www.bestpractices.dev/projects/10308)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Marcelove/Python/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Marcelove/Python)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Marcelove/Python/badge)](https://api.securityscorecards.dev/viewer/?uri=github.com/Marcelove/Python)
 
 
 

@@ -39,3 +39,15 @@ Pull requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
+
+## 🐞 Bug Reporting
+
+Found a bug or have a suggestion? Please open an issue here:  
+👉 https://github.com/Marcelove/Python/issues
+
+## 🔐 Security Policy
+
+If you discover a security vulnerability, please **do not open a GitHub issue**.  
+Instead, email me privately at: [your-email@example.com]
+
+We will respond as quickly as possible to address the issue.

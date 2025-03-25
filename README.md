@@ -2,6 +2,8 @@
 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10308/badge)](https://www.bestpractices.dev/projects/10308)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Marcelove/Python/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Marcelove/Python)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Marcelove/Python/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Marcelove/Python)
+
 
 
 Welcome to my collection of Python scripts and exercises! This project is aimed at practicing and demonstrating core programming skills using Python.

@@ -16,8 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Scorecards analysis
-        uses: ossf/scorecard-action@v2.1.0
+        uses: actions/upload-artifact@v4
         with:
+          name: SARIF file
           results_file: results.sarif
           publish_results: true
         continue-on-error: true
